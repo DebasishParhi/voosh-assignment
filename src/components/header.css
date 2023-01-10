@@ -1,0 +1,71 @@
+.header{
+    height: 300px;
+    width: 100%;
+}
+.imgone{
+    height: 630px;
+    width: 100%;
+}
+.imgtwo{
+    height: 80px;
+    width: 10%;
+    margin-bottom: 40px;
+}
+.imgthree{
+    height: 720px;
+    width: 70%; 
+}
+.header{
+    display: flex;
+    margin-top: -23%;
+}
+.para{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: 100%;
+}
+.para2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 3%;
+
+}
+.btn{
+    background-color: #2d66f5;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    width: fit-content;
+    margin-left: 3%;
+    margin-top: 0;
+}
+.arrowimg{
+    height: 100px;
+    width: 10%;
+    margin-left: 7%;
+}
+
+.footer{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://voosh.in/static/media/book_now_bg.e9f9294653918137cd78.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+}
+
+.upper{
+    height: 150vh;
+}
+
+.register{
+    height: 200px;
+    width: 30%;
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    margin-top: 19px;
+}
+
