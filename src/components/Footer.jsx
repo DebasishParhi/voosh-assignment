@@ -12,16 +12,7 @@ function Footer() {
         localStorage.setItem("pass",pass)
     }
 
-    const check=()=>{
-        let e=localStorage.getItem("email")
-        let p=localStorage.getItem("pass")
-        if(email===e && pass===p){
-            alert(`${email} you alredy login`)
-        }
-        else{
-            alert("please login")
-        }
-    }
+    
 
   return (
     <div className='footermain' >
@@ -42,7 +33,6 @@ function Footer() {
 
             <button style={{marginTop:"5%",backgroundColor:"blue", color:"white"}} onClick={setdata}>Book Demo</button>
 
-            <button style={{marginTop:"5%",backgroundColor:"blue", color:"white",marginLeft:"2%"}} onClick={check}>Refresh</button>
 
            </div>
          </div>

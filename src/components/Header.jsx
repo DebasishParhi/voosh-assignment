@@ -2,11 +2,14 @@ import React from 'react'
 import "./header.css"
 
 function Header() {
+  
+
 
    
   return (
     <>
     <div className='upper'>
+      {/* <h1 className='alert'>{email!=undefined ? `${email} alredy logged in`:"You need to login" }</h1> */}
         <div>
           <img className='imgtwo' src="https://voosh.in/static/media/VooshLogo.c64bcebd40a2d49cc591.webp" alt="" />
         </div>
