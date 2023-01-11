@@ -16,7 +16,7 @@ function Footer() {
         let e=localStorage.getItem("email")
         let p=localStorage.getItem("pass")
         if(email===e && pass===p){
-            alert("User alredy login")
+            alert(`${email} you alredy login`)
         }
         else{
             alert("please login")
@@ -34,11 +34,11 @@ function Footer() {
           <div className='register'>
            <label style={{marginTop:"5%",marginLeft:"0"}} htmlFor="" autoComplete='off'>Email</label><br />
 
-           <input style={{marginLeft:"2%"}} onChange={(e)=>{setEmail(e.target.value)}} type="email" autoComplete='off' /><br />
+           <input placeholder='enter your email' style={{marginLeft:"2%"}} onChange={(e)=>{setEmail(e.target.value)}} type="email" autoComplete='off' /><br />
 
            <label htmlFor="">Password</label><br />
 
-            <input style={{marginLeft:"2%"}}  onChange={(e)=>{setPass(e.target.value)}} type="password"autoComplete='off' /><br />
+            <input placeholder='enter your password' style={{marginLeft:"2%"}}  onChange={(e)=>{setPass(e.target.value)}} type="password"autoComplete='off' /><br />
 
             <button style={{marginTop:"5%",backgroundColor:"blue", color:"white"}} onClick={setdata}>Book Demo</button>
 
